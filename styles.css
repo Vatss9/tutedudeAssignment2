@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;;
+}
+
+.logo-img{
+    height: 50px;
+}
+
+.img2{
+    height: 400px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 1rem;
+}
+
+.user-name{
+    border: 1px solid lightcyan;
+    border-radius: 8px;
+    width: 70px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    background: lightcyan;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.nav-links a:hover{
+    color: black;
+}
+
+.user-name{
+    font-weight: 500;
+    cursor: pointer;
+    color: darkgray;
+}
+
+.user-name:hover{
+    color: black;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+    margin: 15px 70px;
+
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 1.3;
+    font-family: sans-serif;
+}
+
+span{
+    color: blue;
+}
+
+p{
+    font-family: sans-serif;
+    margin: 0px 0px 30px;
+    color: darkgray;
+}
+
+button{
+    width: 210px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+.hero-section{
+    flex-direction: column;
+}
+.nav-links a{
+    display: none;
+}
+}
+
